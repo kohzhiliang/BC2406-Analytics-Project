@@ -12,7 +12,7 @@ library(nnet)
 library(caret)
 options(scipen=999)
 
-setwd('/Users/esmondchan/Downloads/Sem5Team7 Group Project')
+setwd('/Users/kohzhiliang/Downloads/Sem5Team7 Group Project')
 data <- fread("ObesityDataSet_raw_and_data_sinthetic.csv", stringsAsFactors = TRUE)
 
 # display summary  
